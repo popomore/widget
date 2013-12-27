@@ -2,7 +2,7 @@
 // --------
 // data api 解析器，提供对单个 element 的解析，可用来初始化页面中的所有 Widget 组件。
 
-var $ = require('$')
+var $ = require('jquery')
 
 
 // 得到某个 DOM 元素的 dataset

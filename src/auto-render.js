@@ -1,4 +1,4 @@
-var $ = require('$')
+var $ = require('jquery')
 var DATA_WIDGET_AUTO_RENDERED = 'data-widget-auto-rendered'
 
 

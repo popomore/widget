@@ -5,7 +5,7 @@
 // 和 methods。Widget 基类约定了这四要素创建时的基本流程和最佳实践。
 
 var Base = require('base')
-var $ = require('$')
+var $ = require('jquery')
 var DAParser = require('./daparser')
 var AutoRender = require('./auto-render')
 
