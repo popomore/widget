@@ -9,6 +9,7 @@
         "玉伯 <lifesinger@gmail.com>",
         "贯高 <sakura9515@gmail.com>"
     ],
+    "main": "src/widget.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/aralejs/widget.git"
@@ -17,10 +18,10 @@
         "url": "https://github.com/aralejs/widget/issues"
     },
     "spm": {
-        "alias": {
-            "$": "$",
-            "base": "arale/base/1.1.1/base"
-        },
-        "output": ["widget.js"]
+        "main": "src/widget.js",
+        "dependencies": {
+            "popomore-base": "1.1.1",
+            "jquery": "2.0.3"
+        }
     }
 }

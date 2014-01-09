@@ -4,7 +4,7 @@
 // Widget 组件具有四个要素：描述状态的 attributes 和 properties，描述行为的 events
 // 和 methods。Widget 基类约定了这四要素创建时的基本流程和最佳实践。
 
-var Base = require('base')
+var Base = require('arale-base')
 var $ = require('jquery')
 var DAParser = require('./daparser')
 var AutoRender = require('./auto-render')

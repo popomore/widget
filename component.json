@@ -1,14 +1,20 @@
 {
-  "name": "widget",
+  "name": "arale-widget",
   "repo": "popomore/widget",
   "description": "Widget 是 UI 组件的基础类，约定了组件的基本生命周期，实现了一些通用功能。基于 Widget 可以构建出任何你想要的 Web 界面组件。",
   "version": "1.1.1",
-  "keywords": ["infrastructure"],
+  "keywords": [
+    "infrastructure"
+  ],
   "dependencies": {
     "popomore/base": "*",
-    "component/jquery": "*"
+    "components/jquery": "*"
   },
   "main": "src/widget.js",
-  "scripts": ["src/widget.js", "src/auto-render.js", "src/daparser.js"],
+  "scripts": [
+    "src/widget.js",
+    "src/auto-render.js",
+    "src/daparser.js"
+  ],
   "license": "MIT"
 }
